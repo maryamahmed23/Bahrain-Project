@@ -1,0 +1,105 @@
+body {
+    background-image: url("b45e3810-77f5-469f-9f1a-054e191a342a.jpg");
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 350%;
+    font-style: italic;
+}
+
+#menulist {
+    padding: 0;
+    margin :0;
+    list-style-type: none;
+}
+
+.menuitem {
+    width: 150px;
+    float: left;
+    background-color: white;
+    list-style-type: none;
+    margin: 24px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    font-size: 150%;
+}
+
+a:visited{
+    color: black;
+    background-color: none;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    color: red;
+    background-color: none;
+    text-decoration: none;
+}
+
+.active{
+    background-color: black;
+    width: 150px;
+    float: left;
+    list-style-type: none;
+    margin: 24px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 150%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 65%;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  td, th {
+    border: 3px solid #dddddd;
+    text-align: center;
+    padding: 13px;
+    width: 25%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    color: black;
+  }
+
+  tr:nth-child(odd) {
+      background-color: black;
+      color: white;
+  }
+
+  form{
+      color: white;
+  }
+
+  span{
+      background-color: black;
+  }
+  @media only screen and (max-width:1024px){
+  
+table {
+    margin-top: 20%;
+    margin-right: 30%;
+    
+  }
+
+      }
+  @media only screen and (max-width:760px){
+nav{
+    margin-left: 20%;
+}
+
+  }

@@ -1,0 +1,68 @@
+body {
+    background-image: url("IMG_1031.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  h1{
+      text-align: center;
+      font-size: 350%;
+      
+  }
+  span{
+      background-color: white;
+  }
+  #menulist {
+    padding: 0;
+    margin :0;
+    list-style-type: none;
+}
+
+.menuitem {
+    width: 100px;
+    float: left;
+    list-style-type: none;
+    margin: 100px;
+    padding: 75px;
+    text-align: center;
+    cursor: pointer;
+    font-size: xx-large;
+    color: black;
+}
+a:visited{
+    color: black;
+    background-color: none;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    color: red;
+    background-color: none;
+    text-decoration: none;
+}
+footer{
+    color: black;
+    text-align: center;
+    float: left;
+    position: absolute;
+    top:100%;
+}
+
+footer:hover{
+    color: white;
+    background-color: black;
+    font-family: monospace;
+}
+@media only screen and (max-width:760px){
+    .menuitem {
+        margin: 0px;
+    }
+}
+@media only screen and (width:1024px){
+    nav{
+        margin-left: 13%;
+    }
+}

@@ -1,0 +1,318 @@
+body{
+    background-image: url("b45e3810-77f5-469f-9f1a-054e191a342a.jpg");
+    background-size: 100% 100%;
+}
+* {
+    box-sizing: border-box;
+  }
+
+#menulist {
+    padding: 0;
+    margin :0;
+    list-style-type: none;
+}
+
+.menuitem {
+    width: 150px;
+    float: left;
+    background-color: white;
+    list-style-type: none;
+    margin: 24px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    font-size: 150%;
+}
+
+a:visited{
+    color: black;
+    background-color: none;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    color: red;
+    background-color: none;
+    text-decoration: none;
+}
+
+.active{
+    background-color: black;
+    width: 150px;
+    float: left;
+    list-style-type: none;
+    margin: 24px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 150%;
+}
+
+h1{
+    text-align: center;
+    font-size: 350%;
+    font-style: oblique;
+    color: white;
+}
+h2{
+    color: white;
+    font-size: xx-large;
+    text-shadow: 3px 2px red;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2.position1{
+    white-space: nowrap;
+    position: absolute;
+    top: 400px;
+    right: 35px;
+    transform: rotate(90deg);
+}
+
+h2.position2{
+    white-space: nowrap;
+    position: absolute;
+    top:750px;
+    left: 10px;
+    transform: rotate(270deg);
+}
+
+p.men{
+    width: 35%;
+    text-align: left;
+    margin-left: 59.5%;
+    margin-top: 10%;
+    display: block;
+
+}
+p.women{
+    width: 35%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 12%;
+}
+img.one{
+    white-space: nowrap;
+    position: absolute;
+    top: 350px;
+    left: 344px;
+    outline: 5px solid white;
+}
+
+img.two{
+    white-space: nowrap;
+    position: absolute;
+    top: 350px;
+    left: 45px;
+    outline: 5px solid white;
+}
+
+img.three{
+    white-space: nowrap;
+    position: absolute;
+    top: 700px;
+    right: 550px;
+    outline: 5px solid white;
+}
+
+img.four{
+    white-space: nowrap;
+    position: absolute;
+    top: 700px;
+    right: 320px;
+    outline: 5px solid white;
+
+}
+
+img.five{
+    white-space: nowrap;
+    position: absolute;
+    top: 700px;
+    right: 90px;
+    outline: 5px solid white;
+}
+
+@media only screen and (max-width:1024px){
+
+
+h2.position1{
+
+    right: 20px;
+}
+
+h2.position2{
+
+    left: -20px;
+}
+
+img.one{
+   width:240px;
+}
+
+img.two{
+    width:240px;
+}
+
+img.three{
+    
+    top: 920px;
+    right: 200px;
+}
+
+img.four{
+    top: 700px;
+    right: 320px;
+
+}
+
+img.five{
+    
+    top: 700px;
+    right: 90px;
+}
+}
+
+@media only screen and (max-width:900px){
+    nav{
+       margin-left: 0%;
+    }
+    
+    h2.position1{
+        float:left;
+        top: 40%;
+        right: 50%;
+        transform: none;
+    }
+    
+    h2.position2{
+        float:left;
+        top: 80%;
+        left: 40%;
+        transform: none;
+    }
+    
+    p.men{
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+        margin-top:35%;
+        margin-left: 0px;
+    
+    }
+    p.women{
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+        margin-top:38%;
+        margin-left: 0px;
+    }
+    img.one{
+        top: 62%;
+        left: 50%;
+        width:49%;
+    }
+    
+    img.two{
+        top: 62%;
+        left: 1px;
+        width:49%;
+
+    }
+    
+    img.three{
+        top: 102%;
+        left: 50%;
+        width:49%;
+
+    }
+    
+    img.four{
+        top: 102%;
+        left: 1px;
+        width:49%;
+    
+    }
+    
+    img.five{
+        top: 121%;
+        left: 1px;
+        width:100%;
+
+    }
+}
+
+@media only screen and (max-width:760px){
+    nav{
+       margin-left: 25%;
+    }
+    
+    h2.position1{
+        float:left;
+        top: 91%;
+        right: 40%;
+        transform: none;
+    }
+    
+    h2.position2{
+        float:left;
+        top: 160%;
+        left: 35%;
+        transform: none;
+    }
+    
+    p.men{
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+        margin-top:155%;
+        margin-left: 0px;
+    
+    }
+    p.women{
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+        margin-top:73%;
+        margin-left: 0px;
+    }
+    img.one{
+        top: 137%;
+        left: 50%;
+        width:49%;
+    }
+    
+    img.two{
+        top: 137%;
+        left: 1px;
+        width:49%;
+
+    }
+    
+    img.three{
+        top: 205%;
+        left: 50%;
+        width:49%;
+
+    }
+    
+    img.four{
+        top: 205%;
+        left: 1px;
+        width:49%;
+    
+    }
+    
+    img.five{
+        top: 230%;
+        left: 1px;
+        width:100%;
+
+    }
+}

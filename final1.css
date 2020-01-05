@@ -1,0 +1,295 @@
+body{
+    background-image: url("b45e3810-77f5-469f-9f1a-054e191a342a.jpg");
+    background-size: 100% 100%;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+#Header{
+    color: white;
+    text-align: center;
+    font-size: 350%;
+    font-style: italic;
+}
+#menulist {
+    padding: 0;
+    margin :0;
+    list-style-type: none;
+}
+
+.menuitem {
+    width: 150px;
+    float: left;
+    background-color: white;
+    list-style-type: none;
+    margin: 24px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    font-size: 150%;
+}
+
+a:visited{
+    color: black;
+    background-color: none;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    color: red;
+    text-decoration: none;
+}
+
+.active{
+    background-color: black;
+    width: 150px;
+    float: left;
+    list-style-type: none;
+    margin: 24px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 150%;
+}
+
+
+p , h2{
+color: white;
+}
+
+h2{
+    font-size: xx-large;
+    color: white;
+    text-shadow: 3px 2px red;
+}
+
+h2.position1{
+    white-space: nowrap;
+    position: absolute;
+    top: 380px;
+    left: -20px;
+    transform: rotate(270deg);
+   
+}
+
+h2.position2{
+    white-space: nowrap;
+    position: absolute;
+    top: 650px;
+    right: 35px;
+    transform: rotate(90deg);
+ 
+}
+
+h2.position3{
+    white-space: nowrap;
+    position: absolute;
+    top: 980px;
+    left: 35px;
+    transform: rotate(270deg);
+  
+}
+img{
+    border-radius: 8px;
+}
+
+.one{
+    white-space: nowrap;
+    position: absolute;
+    top: 310px;
+    right: 125px;
+
+}
+
+.two{
+    white-space: nowrap;
+    position: absolute;
+    top: 620px;
+    left: 150px;
+}
+
+.three{
+    white-space: nowrap;
+    position: absolute;
+    top: 900px;
+    right: 110px;
+}
+
+p.BH{
+    width: 50%;
+    text-align: left;
+    margin-left: 9%;
+    margin-top: 5%;
+    display: block;
+}
+
+p.relig{
+    width: 35%;
+    text-align: left;
+    margin-left: 57%;
+    margin-top: 8.5%;
+    display: block;
+}
+
+p.flag{
+    width: 50%;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 13%;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+   
+}
+
+#flaglist, .flagitem{
+    color: white;
+    margin-left:5%;
+}
+
+@media only screen and (max-width:1024px){
+    h2.position1{
+        top: 500px;
+        left: -70px;  
+    }
+    
+    h2.position2{
+        top: 800px;
+        right: -10px;
+    }
+    
+    h2.position3{
+
+        top: 1200px;
+        left: 0px;
+      
+    }
+    
+    .one{
+        top: 450px;
+        right: 10px;
+    
+    }
+    
+    .two{
+        top: 800px;
+        left: 100px;
+    }
+    
+    .three{
+        top: 1150px;
+        right: 10px;
+    }
+    
+    p.BH{
+        width: 50%;
+        text-align: left;
+        margin-left: 9%;
+        margin-top: 5%;
+        display: block;
+    }
+    
+    p.relig{
+        width: 35%;
+        text-align: left;
+        margin-left: 57%;
+        margin-top: 8.5%;
+        display: block;
+    }
+    
+    p.flag{
+        width: 50%;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 13%;
+    }
+}
+
+
+@media only screen and (max-width:760px){
+    .menuitem {
+        width:70px ;
+        font-size: 100%;
+        margin:5px;
+    }
+    .active{
+        width:70px ;
+        margin:5px;
+    }
+    h2.position1{
+        top: 270px;
+        transform: none;
+        margin-left: 5%;
+       
+    }
+    p.BH{
+        width: 100%;
+        text-align: left;
+        margin-left: 0%;
+        margin-top: 45%;
+        display: block;
+    }
+    .one{
+        white-space: nowrap;
+        position: absolute;
+        top: 635px;
+        right: 8%;
+    
+    }
+    h2.position2{
+        top: 805px;
+        left: 0px;
+        transform: none;
+    }
+    p.relig{
+        width: 100%;
+        text-align: left;
+        margin-left: 0%;
+        margin-top: 68%;
+        display: block;
+    }
+    .two{
+        top: 140%;
+        left: 8%;
+    }
+    h2.position3{
+        top: 162%;
+        left: 0px;
+        transform: none;
+    }
+    p.flag{
+        width: 100%;
+        text-align: left;
+        margin-left: 0%;
+        margin-top: 75%;
+        display: block;
+    }
+
+.three{
+    top: 200%;
+    left: 8%;
+}
+}
