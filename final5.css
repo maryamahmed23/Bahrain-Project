@@ -30,14 +30,12 @@ h1{
 
 a:visited{
     color: black;
-    background-color: none;
     text-decoration: underline;
 }
 
 a:hover
 {
     color: red;
-    background-color: none;
     text-decoration: none;
 }
 
